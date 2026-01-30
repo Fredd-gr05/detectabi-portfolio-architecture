@@ -20,13 +20,15 @@
 **Output:** 3 dashboards automáticos + validação das premissas do Canvas
 **Objetivo:** Primeira assinatura recorrente
 
+
+
+## PROJETOS STANDBY (2027+)
+
 ### Produto 4: DetectaBI Professional
 **Preço:** R$ 1.497/mês (SaaS avançado)
 **Ideia Central:** Automação completa da coleta de dados via integrações com Google Sheets, APIs de ERPs cloud (Bling, Tiny, Omie), dashboards ilimitados customizados, alertas inteligentes e suporte prioritário.
 **Output:** Integrações automáticas + dashboards ilimitados + histórico 12 meses
 **Objetivo:** Aumentar LTV e reduzir churn
-
-## PROJETOS STANDBY (2027+)
 
 ### Produto 5: Validador de Mercado com IA
 **Preço:** R$ 197-997
