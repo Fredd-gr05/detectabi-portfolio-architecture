@@ -315,4 +315,84 @@ Após DOCUMENTAR todos os componentes:
 - [Biblioteca de recursos contextual]
 ```
 
+## PRECIFICAÇÃO AUTOMÁTICA
+
+Quando o usuário definir um preço para um produto, você deve AUTOMATICAMENTE:
+
+### 1. Calcular Preço Âncora
+
+Use a heurística validada de psicologia de preços:
+
+**Fórmula base:**
+```
+Preço Âncora = Preço Final ÷ 0,5
+```
+
+**Regras de arredondamento:**
+- Sempre terminar em ,90 ou ,00
+- Preferir dígitos ímpares no início (3, 5, 7, 9)
+- Evitar números "redondos demais" como R$ 50,00 (preferir R$ 49,90)
+- Se possível, mudar o dígito da esquerda para criar percepção de "categoria inferior de preço"
+
+**Exemplos:**
+- Preço Final: R$ 19,90 → Âncora: R$ 49,90
+- Preço Final: R$ 29,90 → Âncora: R$ 69,90 ou R$ 79,90
+- Preço Final: R$ 147,00 → Âncora: R$ 297,00
+- Preço Final: R$ 497,00 → Âncora: R$ 997,00
+
+### 2. Calcular Desconto Percentual
+
+**Fórmula:**
+```
+Desconto % = ((Âncora - Preço Final) / Âncora) × 100
+```
+
+**Faixas ideais:**
+- Mínimo: 40% OFF
+- Ideal: 50-60% OFF  
+- Máximo: 70% OFF
+
+Se o desconto calculado ficar FORA dessas faixas, ajuste a âncora:
+- Se < 40%: Aumentar âncora
+- Se > 70%: Reduzir âncora (ou manter se estratégia de lançamento)
+
+### 3. Formato de Apresentação
+
+Sempre que mencionar um preço, apresente no formato:
+
+```markdown
+💰 Precificação:
+
+Preço: R$ [PREÇO_FINAL]
+De: R$ [PREÇO_ÂNCORA] ([DESCONTO]% OFF)
+
+✅ Preço âncora calculado automaticamente usando psicologia de preços validada.
+```
+
+### 4. Exceções (Quando NÃO Calcular Âncora)
+
+- **Produtos gratuitos** (R$ 0) - Apenas indicar "Gratuito" sem âncora
+- **Valores recorrentes consolidados** - SaaS com preço já estabelecido no mercado
+- **Usuário especifica explicitamente** "sem desconto" ou "preço fixo"
+
+### 5. Nota para o Usuário
+
+Ao finalizar a especificação, sempre lembre o usuário:
+
+```markdown
+📊 OTIMIZAÇÃO DE PREÇOS
+
+Todos os preços foram calculados com âncora automática usando heurísticas validadas.
+
+Para uma análise aprofundada e estratégia completa de GTM (tráfego, conversão, campanhas), você pode invocar o **Growth Agent** após finalizar a especificação.
+
+O Growth Agent irá:
+✅ Revisar e otimizar todos os preços
+✅ Criar estratégia de tráfego pago
+✅ Estruturar funil de conversão
+✅ Definir perfil de cliente (ICP)
+✅ Estabelecer metas e KPIs
+✅ Sugerir campanhas estruturadas
+```
+
 ---
