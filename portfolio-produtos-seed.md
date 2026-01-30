@@ -2,16 +2,32 @@
 
 ## PROJETO PRINCIPAL: DetectaBI (2026)
 
-### Produto 1: Diagnóstico de Perfil Empreendedor
-**Preço:** R$ 0 (Lead magnet)
-**Ideia Central:** Avaliar o perfil comportamental do empresário através de frameworks validados (CCE, Johari, Flow) em 15-20 minutos, capturando email e gerando relatório PDF personalizado com pontos fortes e cegos.
-**Output:** spec_perfil_empresario.json
-**Objetivo:** Captura de leads + personalização da jornada
+### Produto 1A: Diagnóstico de Perfil Empreendedor (Lead Magnet)
+**Preço:** R$ 0 (Gratuito)
+**Ideia Central:** Avaliar o perfil empreendedor através de 3 frameworks integrados em 8-12 minutos: CCE SEBRAE (10 perguntas), Janela de Johari (20 adjetivos), Estado de Flow SEBRAE (2 escalas). Gera relatório PDF básico com score global, top 3 pontos fortes e gaps.
+**Output:** spec_perfil_empresario_basico.json + PDF básico
+**Objetivo:** Captura de leads + segmentação por engajamento
+**Tempo:** 8-12 minutos | 22 interações
+
+### Produto 1B: Diagnóstico Aprofundado (Tripwire)
+**Preço:** R$ 19,90 (Upsell imediato)
+**Ideia Central:** Desbloqueia análise científica completa com frameworks validados: CCE expandido (30 perguntas totais), Janela de Johari clássica (56 adjetivos + percepção externa), Flow FSS-2 (36 perguntas em 9 dimensões). Gera relatório premium com gráficos avançados, benchmark e plano de desenvolvimento.
+**Output:** spec_perfil_empresario_completo.json + PDF premium + comparação com base DetectaBI
+**Objetivo:** Monetização imediata + qualificação de leads quentes
+**Conversão esperada:** 10% dos leads
+**Tempo adicional:** +20-25 minutos | +66 interações
+
+### Produto 1C: Bundle Validador + Diagnóstico (Oferta Nurture)
+**Preço:** R$ 29,90 (Validador + Diagnóstico Aprofundado de bônus)
+**Ideia Central:** Para leads que não compraram o tripwire, oferta via email (5-7 dias) do Validador de Negócio com o Diagnóstico Aprofundado como bônus exclusivo. Dados integrados entre produtos.
+**Output:** spec_canvas.json + spec_scamcea.json + spec_perfil_empresario_completo.json
+**Objetivo:** Converter leads frios em compradores + aumentar valor percebido do Validador
+
+**Conversão esperada:** 5% dos não-compradores
 
 ### Produto 2: Validador de Negócio
 **Preço:** R$ 29,90 (Produto de entrada)
-**Ideia Central:** Estruturar o modelo de negócio através de Canvas e SCAMCEA via perguntas guiadas por IA, gerando lista priorizada de tarefas e identificando os 3 KPIs críticos que o empresário deveria acompanhar.
-**Output:** spec_canvas.json + spec_scamcea.json
+**Ideia Central:** Estruturar o modelo de negócio através de Canvas e SCSCAMCEA via perguntas guiadas por IA, gerando lista priorizada de tarefas e identificando os 3 KPIs críticos que o empresário deveria acompanhar.
 **Objetivo:** Primeira receita + qualificação do lead
 
 ### Produto 3: DetectaBI Starter
