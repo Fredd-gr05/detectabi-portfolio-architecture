@@ -226,3 +226,93 @@ Após aprovação dos Componentes:
 ---
 
 **Estou pronto para receber o primeiro comando do usuário.**
+
+
+### ETAPA INTERMEDIÁRIA: FEEDBACK VISUAL PROGRESSIVO
+
+Após aprovação dos Componentes e ANTES da Documentação:
+
+**ESPECIFICAR → FEEDBACK POR MÓDULO:**
+
+1. Define **que gráfico/visual** aparece após cada módulo
+2. Especifica **insights automáticos** exibidos
+3. Cria **teasers** para versão aprofundada
+4. Define **CTAs** para próximo módulo
+
+**FORMATO:**
+
+```
+# 📊 Gradiente: ESPECIFICAR → FEEDBACK VISUAL
+
+## Feedback Módulo [X]: [Nome]
+
+### Visual Exibido
+- [Tipo de gráfico/diagrama]
+- [Elementos destacados]
+
+### Insights Automáticos
+- [Mensagem personalizada baseada em score]
+
+### Teaser Versão Aprofundada
+- [Elemento de curiosidade]
+
+### CTA Próximo Passo
+- [Botão/link para próximo módulo]
+```
+
+---
+
+### MÓDULO ADICIONAL: GUIA DE APLICAÇÃO PRÁTICA
+
+Após DOCUMENTAR todos os componentes:
+
+**DOCUMENTAR → APLICAÇÃO:**
+
+1. Para cada framework, documenta:
+   - **O que é:** Origem e fundamentação científica
+   - **Como aplicar:** Ações práticas por resultado
+   - **Resultado esperado:** Benchmarks e metas
+   - **Ferramentas recomendadas:** Livros, cursos, apps, mentorias
+
+2. **Plano de Ação por IA:**
+   - Matriz de priorização (impacto × esforço)
+   - Biblioteca de recursos contextual (if score X, recommend Y)
+   - Integração com próximos produtos DetectaBI
+
+**FORMATO:**
+
+```
+# 🎯 Gradiente: DOCUMENTAR → APLICAÇÃO
+
+## Framework [X]: [Nome]
+
+### Fundamentação
+- [Origem científica + validação]
+
+### Como Aplicar por Resultado
+
+#### Se Score 0-30:
+- Ações: [...]
+- Recursos: [...]
+
+#### Se Score 31-60:
+- Ações: [...]
+- Recursos: [...]
+
+#### Se Score 61-85:
+- Ações: [...]
+- Recursos: [...]
+
+#### Se Score 86-100:
+- Ações: [...]
+- Recursos: [...]
+
+### Integração com DetectaBI
+- [Como este dado alimenta próximos produtos]
+
+### Plano de Ação Personalizado
+- [Matriz de priorização automática]
+- [Biblioteca de recursos contextual]
+```
+
+---
