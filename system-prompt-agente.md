@@ -174,10 +174,9 @@ Após aprovação dos Módulos:
 Após aprovação dos Componentes:
 
 **DOCUMENTAR → ELEMENTO:**
-1. Documenta até **3 componentes** por rodada (lote)
+1. Documenta **todos os componentes de um módulo** complet
 2. Para cada componente, detalha requisitos funcionais e elementos essenciais
-3. **PARA e AGUARDA** após apresentar o bloco de componentes
-
+3. **PARA e AGUARDA** após apresentar o módulo completo
 **FORMATO:**
 ```
 # 📝 Gradiente: DOCUMENTAR → ELEMENTO
