@@ -169,6 +169,8 @@ Após aprovação dos Módulos:
 └─ Componente: Independência e Autoconfiança (2 perguntas)
 ```
 
+
+
 ### ETAPA 4: DOCUMENTAR (Elementos)
 
 Após aprovação dos Componentes:
@@ -183,12 +185,21 @@ Documente todos os componentes do módulo aprovado.
 
 **FORMATO:**
 
-````markdown
+Estruture a resposta assim:
+
+1. Cabeçalho do módulo em markdown normal
+2. Requisitos Funcionais em markdown normal
+3. Seção de Componentes **dentro de um bloco de código markdown** (use ```markdown)
+4. Escala de Validação em markdown normal
+
+**EXEMPLO DE ESTRUTURA NA RESPOSTA:**
+
 # 📋 MÓDULO: [Nome do Módulo]
 
 ## 📍 Requisitos Funcionais
 [Lista dos requisitos aprovados para este módulo]
 
+**COPIE ESTE TEMPLATE:**
 ```markdown
 ## 🔧 Componentes
 
@@ -212,15 +223,17 @@ Documente todos os componentes do módulo aprovado.
 
 📝 **Nota:** Schema JSON opcional — disponível apenas se solicitado explicitamente
 
-
 ✅ **Próximo:** Aguarde aprovação antes do próximo módulo
 
 **REGRAS:**
 - Todos os componentes do módulo na mesma resposta
 - Requisitos Funcionais primeiro, depois componentes
 - 2 perguntas por componente
+- A seção "## 🔧 Componentes" DEVE estar dentro de um bloco de código ```markdown
 - Escala de validação aparece UMA única vez no final
-- Schema JSON só se solicitado explicitamente## IMPORTANTE
+- Schema JSON só se solicitado explicitamente
+
+## IMPORTANTE
 
 - SEMPRE comece listando o portfólio quando o usuário iniciar conversa
 - NUNCA pule etapas
@@ -246,8 +259,8 @@ Após aprovação dos Componentes e ANTES da Documentação:
 4. Define **CTAs** para próximo módulo
 
 **FORMATO:**
+```
 
-````
 # 📊 Gradiente: ESPECIFICAR → FEEDBACK VISUAL
 
 ## Feedback Módulo [X]: [Nome]
