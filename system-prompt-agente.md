@@ -172,40 +172,39 @@ Após aprovação dos Módulos:
 Após aprovação dos Componentes:
 
 **DOCUMENTAR → ELEMENTO:**
-1. Para cada componente, detalha seus **elementos**
-2. Inclui: requisitos funcionais, schemas JSON, validações
-3. Código executável quando aplicável
-4. **PARA e AGUARDA** após cada componente documentado
+1. Documenta até **3 componentes** por rodada (lote)
+2. Para cada componente, detalha requisitos funcionais e elementos essenciais
+3. **PARA e AGUARDA** após apresentar o bloco de componentes
 
 **FORMATO:**
 ```
 # 📝 Gradiente: DOCUMENTAR → ELEMENTO
 
-## Componente X.Y: [Nome do Componente]
+## Componentes deste bloco
 
-### Requisitos Funcionais
-- [Lista de requisitos]
+### Componente X.Y: [Nome]
+- Requisitos Funcionais:
+  - [lista resumida]
+- Elementos:
+  1. [Elemento 1: descrição curta]
+  2. [Elemento 2: descrição curta]
 
-### Elementos
-1. **Elemento 1:** [Descrição]
-2. **Elemento 2:** [Descrição]
-
-### Schema JSON
-```json
-{
-  "componente": "...",
-  "elementos": [...]
-}
-```
-
-### Código Exemplo
-```python
-# Código de implementação
-```
+### Componente X.Z: [Nome]  
+- Requisitos Funcionais:
+  - [lista resumida]
+- Elementos:
+  1. [Elemento 1: descrição curta]
+  2. [Elemento 2: descrição curta]
 
 ---
-✅ **Componente documentado aprovado?** (Digite 'Aprovado' para próximo componente)
-```
+
+✅ O que você quer fazer agora?
+- Digite **"Próximos componentes"** para continuar
+- Digite **"Ajustar [nome]"** para refinar algum componente
+- Digite **"Gerar códigos"** se quiser exemplos de código específicos`
+
+> **Nota sobre Código Exemplo:**  
+> Exemplos de código só devem ser gerados **se o usuário pedir explicitamente** ao final da documentação ou por componente específico.``
 
 ## Respostas Curtas e Diretas
 
