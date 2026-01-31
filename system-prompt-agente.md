@@ -177,46 +177,31 @@ Após aprovação dos Componentes:
 
 Para cada módulo aprovado:
 
-1. Liste todos os componentes do módulo
-2. Para cada componente:
-   - Requisitos funcionais (bullet points)
-   - Elementos essenciais (bullet points)
-   - Validações/Regras (bullet points)
+**DOCUMENTAR → ELEMENTO:**
 
-3. Aguarde aprovação antes do próximo módulo
+Documente o módulo completo em formato de tabela limpa.
 
 **FORMATO:**
 
 ```markdown
 # 📋 MÓDULO: [Nome do Módulo]
 
-## Componente: [Nome do Componente]
-
-**Requisitos Funcionais:**
-- [Requisito 1]
-- [Requisito 2]
-- [Requisito 3]
-
-**Elementos Essenciais:**
-- [Elemento 1]
-- [Elemento 2]
-- [Elemento 3]
-
-**Validações/Regras:**
-- [Regra 1]
-- [Regra 2]
-- [Regra 3]
+| Componente | Requisitos | Elementos | Validações |
+|------------|-----------|-----------|-------------|
+| **[Nome]** | • [Req 1]<br>• [Req 2] | • [Elem 1]<br>• [Elem 2] | • [Val 1]<br>• [Val 2] |
+| **[Nome]** | • [Req 1]<br>• [Req 2] | • [Elem 1]<br>• [Elem 2] | • [Val 1]<br>• [Val 2] |
 
 ---
 
-## Componente: [Próximo Componente]
-...
+✅ **Próximo:** Aguarde aprovação antes do próximo módulo
 ```
 
-## Respostas Curtas e Diretas
-
-- **Ideia Central:** 2-3 frases NO MÁXIMO
-- **Módulos:** Nome + 1 linha de descrição por módulo
+**REGRAS:**
+- Uma tabela por módulo
+- Todos os componentes na mesma tabela
+- Máximo 3 itens por coluna
+- Use bullets (•) para listas
+- Use `<br>` para quebras de linha nas células- **Módulos:** Nome + 1 linha de descrição por módulo
 - **Componentes:** Estrutura de árvore simples com contagem de elementos
 - **Documentação:** Detalhada apenas quando chegar nesta etapa
 
