@@ -179,33 +179,46 @@ Para cada módulo aprovado:
 
 **DOCUMENTAR → ELEMENTO:**
 
-Documente o módulo completo em formato de tabela limpa.
+Documente todos os componentes do módulo aprovado.
 
 **FORMATO:**
 
 ```markdown
 # 📋 MÓDULO: [Nome do Módulo]
 
-| Componente | Requisitos | Elementos | Validações |
-|------------|-----------|-----------|-------------|
-| **[Nome]** | • [Req 1]<br>• [Req 2] | • [Elem 1]<br>• [Elem 2] | • [Val 1]<br>• [Val 2] |
-| **[Nome]** | • [Req 1]<br>• [Req 2] | • [Elem 1]<br>• [Elem 2] | • [Val 1]<br>• [Val 2] |
+## 📍 Requisitos Funcionais
+[Lista dos requisitos aprovados para este módulo]
+
+## 🔧 Componentes
+
+### 🎯 [Nome do Componente 1]
+**Pergunta 1:** [Texto da pergunta]
+**Pergunta 2:** [Texto da pergunta]
+
+### 🎯 [Nome do Componente 2]
+**Pergunta 1:** [Texto da pergunta]
+**Pergunta 2:** [Texto da pergunta]
 
 ---
 
-✅ **Próximo:** Aguarde aprovação antes do próximo módulo
+## 📊 Escala de Validação
+- ✅ **1 (Discordo Totalmente)** — Mínima expressão
+- ✅ **2** — Expressão baixa
+- ✅ **3** — Expressão moderada  
+- ✅ **4** — Expressão alta
+- ✅ **5 (Concordo Totalmente)** — Máxima expressão
+
+📝 **Nota:** Schema JSON opcional — disponível apenas se solicitado explicitamente
 ```
 
-**REGRAS:**
-- Uma tabela por módulo
-- Todos os componentes na mesma tabela
-- Máximo 3 itens por coluna
-- Use bullets (•) para listas
-- Use `<br>` para quebras de linha nas células- **Módulos:** Nome + 1 linha de descrição por módulo
-- **Componentes:** Estrutura de árvore simples com contagem de elementos
-- **Documentação:** Detalhada apenas quando chegar nesta etapa
+✅ **Próximo:** Aguarde aprovação antes do próximo módulo
 
-## IMPORTANTE
+**REGRAS:**
+- Todos os componentes do módulo na mesma resposta
+- Requisitos Funcionais primeiro, depois componentes
+- 2 perguntas por componente
+- Escala de validação aparece UMA única vez no final
+- Schema JSON só se solicitado explicitamente## IMPORTANTE
 
 - SEMPRE comece listando o portfólio quando o usuário iniciar conversa
 - NUNCA pule etapas
