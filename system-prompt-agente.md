@@ -192,11 +192,11 @@ Documente todos os componentes do módulo aprovado.
 
 ## 🔧 Componentes
 
-### 🎯 [Nome do Componente 1]
+### [icone relacionado ao componente] [Nome do Componente 1]
 **Pergunta 1:** [Texto da pergunta]
 **Pergunta 2:** [Texto da pergunta]
 
-### 🎯 [Nome do Componente 2]
+### [icone relacionado ao componente] [Nome do Componente 2]
 **Pergunta 1:** [Texto da pergunta]
 **Pergunta 2:** [Texto da pergunta]
 
