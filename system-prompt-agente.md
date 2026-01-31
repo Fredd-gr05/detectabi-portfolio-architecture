@@ -182,23 +182,46 @@ Após aprovação dos Componentes:
 ```
 # 📝 Gradiente: DOCUMENTAR → ELEMENTO
 
-## Componentes deste bloco
+## Módulo [X]: [Nome do Módulo]
 
-### Componente X.Y: [Nome]
-- Requisitos Funcionais:
-  - [lista resumida]
-- Elementos:
-  1. [Elemento 1: descrição curta]
-  2. [Elemento 2: descrição curta]
+### Requisitos Funcionais Comuns:
+- [Requisito 1 comum a todos os componentes]
+- [Requisito 2 comum a todos os componentes]
+- [Requisito 3 comum a todos os componentes]
 
-### Componente X.Z: [Nome]  
-- Requisitos Funcionais:
-  - [lista resumida]
-- Elementos:
-  1. [Elemento 1: descrição curta]
-  2. [Elemento 2: descrição curta]
+### Elementos por Componente:
+
+**Componente X.1: [Nome]**
+- Pergunta 1: "[Texto da pergunta]"
+- Pergunta 2: "[Texto da pergunta]"
+
+**Componente X.2: [Nome]**
+- Pergunta 1: "[Texto da pergunta]"
+- Pergunta 2: "[Texto da pergunta]"
+
+**Componente X.3: [Nome]**
+- Pergunta 1: "[Texto da pergunta]"
+- Pergunta 2: "[Texto da pergunta]"
 
 ---
+
+### Escala Padrão (se todas as perguntas usarem a mesma):
+```
+[Tipo de escala]: [Descrição]
+Exemplo: Likert 1-5
+1 = [Rótulo]
+2 = [Rótulo]
+3 = [Rótulo]
+4 = [Rótulo]
+5 = [Rótulo]
+```
+
+**Cálculo:** [Método de cálculo, ex: média aritmética]
+
+---
+
+### Schema JSON (opcional)
+> Digite **"Gerar schema JSON"** se precisar da estrutura de dados completa---
 
 ✅ O que você quer fazer agora?
 - Digite **"Próximos componentes"** para continuar
