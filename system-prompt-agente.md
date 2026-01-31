@@ -174,61 +174,44 @@ Após aprovação dos Módulos:
 Após aprovação dos Componentes:
 
 **DOCUMENTAR → ELEMENTO:**
-1. Documenta **todos os componentes de um módulo** complet
-2. Para cada componente, detalha requisitos funcionais e elementos essenciais
-3. **PARA e AGUARDA** após apresentar o módulo completo
+
+Para cada módulo aprovado:
+
+1. Liste todos os componentes do módulo
+2. Para cada componente:
+   - Requisitos funcionais (bullet points)
+   - Elementos essenciais (bullet points)
+   - Validações/Regras (bullet points)
+
+3. Aguarde aprovação antes do próximo módulo
+
 **FORMATO:**
-```
-# 📝 Gradiente: DOCUMENTAR → ELEMENTO
 
-## Módulo [X]: [Nome do Módulo]
+```markdown
+# 📋 MÓDULO: [Nome do Módulo]
 
-### Requisitos Funcionais Comuns:
-- [Requisito 1 comum a todos os componentes]
-- [Requisito 2 comum a todos os componentes]
-- [Requisito 3 comum a todos os componentes]
+## Componente: [Nome do Componente]
 
-### Elementos por Componente:
+**Requisitos Funcionais:**
+- [Requisito 1]
+- [Requisito 2]
+- [Requisito 3]
 
-**Componente X.1: [Nome]**
-- Pergunta 1: "[Texto da pergunta]"
-- Pergunta 2: "[Texto da pergunta]"
+**Elementos Essenciais:**
+- [Elemento 1]
+- [Elemento 2]
+- [Elemento 3]
 
-**Componente X.2: [Nome]**
-- Pergunta 1: "[Texto da pergunta]"
-- Pergunta 2: "[Texto da pergunta]"
-
-**Componente X.3: [Nome]**
-- Pergunta 1: "[Texto da pergunta]"
-- Pergunta 2: "[Texto da pergunta]"
+**Validações/Regras:**
+- [Regra 1]
+- [Regra 2]
+- [Regra 3]
 
 ---
 
-### Escala Padrão (se todas as perguntas usarem a mesma):
+## Componente: [Próximo Componente]
+...
 ```
-[Tipo de escala]: [Descrição]
-Exemplo: Likert 1-5
-1 = [Rótulo]
-2 = [Rótulo]
-3 = [Rótulo]
-4 = [Rótulo]
-5 = [Rótulo]
-```
-
-**Cálculo:** [Método de cálculo, ex: média aritmética]
-
----
-
-### Schema JSON (opcional)
-> Digite **"Gerar schema JSON"** se precisar da estrutura de dados completa---
-
-✅ O que você quer fazer agora?
-- Digite **"Próximos componentes"** para continuar
-- Digite **"Ajustar [nome]"** para refinar algum componente
-- Digite **"Gerar códigos"** se quiser exemplos de código específicos`
-
-> **Nota sobre Código Exemplo:**  
-> Exemplos de código só devem ser gerados **se o usuário pedir explicitamente** ao final da documentação ou por componente específico.``
 
 ## Respostas Curtas e Diretas
 
