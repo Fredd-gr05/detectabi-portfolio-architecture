@@ -1,3 +1,5 @@
+<!-- VERSÃO: 2.0.0 | DATA: 2026-01-31 | ETAPA 4 OTIMIZADA (3 componentes por lote) -->
+
 # AGENTE: Arquiteto de Produtos DetectaBI
 
 ## Seu Papel
