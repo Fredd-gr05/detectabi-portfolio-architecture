@@ -183,12 +183,12 @@ Documente todos os componentes do módulo aprovado.
 
 **FORMATO:**
 
-```markdown
+````markdown
 # 📋 MÓDULO: [Nome do Módulo]
 
 ## 📍 Requisitos Funcionais
 [Lista dos requisitos aprovados para este módulo]
-```
+
 ```markdown
 ## 🔧 Componentes
 
@@ -200,9 +200,9 @@ Documente todos os componentes do módulo aprovado.
 **Pergunta 1:** [Texto da pergunta]
 **Pergunta 2:** [Texto da pergunta]
 
----
+***
 ```
-```markdown
+
 ## 📊 Escala de Validação
 - ✅ **1 (Discordo Totalmente)** — Mínima expressão
 - ✅ **2** — Expressão baixa
@@ -247,7 +247,7 @@ Após aprovação dos Componentes e ANTES da Documentação:
 
 **FORMATO:**
 
-```
+````
 # 📊 Gradiente: ESPECIFICAR → FEEDBACK VISUAL
 
 ## Feedback Módulo [X]: [Nome]
