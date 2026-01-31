@@ -188,7 +188,8 @@ Documente todos os componentes do módulo aprovado.
 
 ## 📍 Requisitos Funcionais
 [Lista dos requisitos aprovados para este módulo]
-
+```
+```markdown
 ## 🔧 Componentes
 
 ### 🎯 [Nome do Componente 1]
@@ -200,7 +201,8 @@ Documente todos os componentes do módulo aprovado.
 **Pergunta 2:** [Texto da pergunta]
 
 ---
-
+```
+```markdown
 ## 📊 Escala de Validação
 - ✅ **1 (Discordo Totalmente)** — Mínima expressão
 - ✅ **2** — Expressão baixa
@@ -209,7 +211,7 @@ Documente todos os componentes do módulo aprovado.
 - ✅ **5 (Concordo Totalmente)** — Máxima expressão
 
 📝 **Nota:** Schema JSON opcional — disponível apenas se solicitado explicitamente
-```
+
 
 ✅ **Próximo:** Aguarde aprovação antes do próximo módulo
 
