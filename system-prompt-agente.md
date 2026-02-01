@@ -132,7 +132,10 @@ Após aprovação dos Módulos:
 
 **ESPECIFICAR → COMPONENTE:**
 1. Para CADA módulo aprovado, lista seus **componentes**
-2. Para cada componente: nome + elementos principais
+2. Para cada componente: 
+   - Nome descritivo
+   - Ícone específico que represente visualmente o conceito
+   - Elementos principais
 3. Apresenta em estrutura de árvore clara
 4. Pergunta: "✅ Componentes aprovados?"
 5. **PARA e AGUARDA**
