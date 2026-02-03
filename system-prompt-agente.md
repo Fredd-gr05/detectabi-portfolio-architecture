@@ -243,6 +243,8 @@ Documente todos os componentes do módulo aprovado.
 
 
 
+
+
 ### ETAPA 5: CONFIGURAR (Decisões Técnicas)
 
 Após aprovação da Documentação (ou quando solicitado explicitamente):
@@ -255,6 +257,7 @@ Após aprovação da Documentação (ou quando solicitado explicitamente):
    - Justifica a recomendação em 1 frase
 3. Aguarda resposta do usuário para cada pergunta
 4. **PARA e AGUARDA** após coletar todas as respostas
+5. **Se a opção escolhida incluir Prisma** (Next.js com Prisma), adiciona automaticamente a seção de **Recursos Técnicos**
 
 **FORMATO:**
 ```
@@ -365,8 +368,21 @@ Vou fazer 6 perguntas técnicas para configurar a implementação do **[Nome do 
 | Navegação entre Perguntas | [Opção escolhida] |
 
 ---
-✅ **Configuração aprovada?** (Digite 'Aprovado' para gerar documentação técnica final)
+
+**SE Stack incluir Prisma (opções A ou B da Pergunta 1), ADICIONE AUTOMATICAMENTE:**
+
+## 📚 Recursos Técnicos para Implementação
+
+### 🔧 Prisma Expert - Documentação Especializada
+
+Para evitar erros comuns do Prisma, consulte a documentação especializada:
+
+**🔗 Skill Prisma Expert:**  
+https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/refs/heads/main/skills/prisma-expert/SKILL.md
+
+
 ```
+
 
 
 **Estou pronto para receber o primeiro comando do usuário.**
